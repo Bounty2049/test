@@ -23,24 +23,56 @@
         </div>
     </header>
     <main>
-        <div class="photo-profile">
-            <img src="hacker/images/Blackmonster.jpg" alt="The most sex man in peace">
+        <div class="user-profile-change-form">
+            <h2 class="header-user">User</h2>
+            <div class="photo-profile">
+                <img src="hacker/images/Blackmonster.jpg" alt="The most sex man in peace">
+            </div>
+            <form>
+                <label for="first-name">Name:</label>
+                <input type="text" id="first-name" name="first-name" required placeholder="Mark"><br>
+            
+                <label for="last-name">Surname:</label>
+                <input type="text" id="last-name" name="last-name" required placeholder="Markov"><br>
+            
+                <label for="photo">Photo:</label>
+                <input type="file" class="photo" id="photo" name="photo"><br>
+            
+                <label for="email">Mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Iamgey@gmail.com"><br>
+            
+                <button>Save</button>
+            </form>
         </div>
-        <form>
-            <label for="first-name">Name:</label>
-            <input type="text" id="first-name" name="first-name" required placeholder="Mark"><br>
-          
-            <label for="last-name">Surname:</label>
-            <input type="text" id="last-name" name="last-name" required placeholder="Markov"><br>
-          
-            <label for="photo">Photo:</label>
-            <input type="file" class="photo" id="photo" name="photo"><br>
-          
-            <label for="email">Mail:</label>
-            <input type="email" id="email" name="email" required placeholder="Iamgey@gmail.com"><br>
-          
-            <button>Save</button>
-           </form>
+        <h2 class="header-library">Library</h2>
+        <div class="list-library">
+            <ul>
+                <li>
+                    <div class="user-profile-own-product">
+                        <img src="hacker/images/DjangoFw.png" alt="Image of product">
+                        <h3 class="cr-pr-pr">product name</h3>
+                        <p>author</p>
+                        <p class="cr-pr-def">product description</p>
+                    </div>  
+                </li>
+                <li>
+                    <div class="user-profile-own-product">
+                        <img src="hacker/images/DjangoFw.png" alt="Image of product">
+                        <h3 class="cr-pr-pr">product name</h3>
+                        <p>author</p>
+                        <p class="cr-pr-def">product description</p>
+                    </div>  
+                </li>
+                <li>
+                    <div class="user-profile-own-product">
+                        <img src="hacker/images/DjangoFw.png" alt="Image of product">
+                        <h3 class="cr-pr-pr">product name</h3>
+                        <p>author</p>
+                        <p class="cr-pr-def">product description</p>
+                    </div>  
+                </li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
